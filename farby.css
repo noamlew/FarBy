@@ -1,0 +1,159 @@
+body {
+    overflow: hidden;
+    background-color: rgb(165, 165, 165);
+}
+
+.row {
+    text-align: center;
+}
+
+.oneColor {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 1px;
+}
+
+.oneColor:hover {
+    border: 5px solid black;
+}
+
+#allSetColors {
+    width: 550px;
+    margin: 0 auto;
+}
+
+#greenBox {
+    background-color: green;
+}
+
+#yellowBox {
+    background-color: yellow;
+}
+
+#redBox {
+    background-color: red;
+}
+
+#blueBox {
+    background-color: blue;
+}
+
+.colorText {
+    font-family: Impact;
+    font-size: 50px;
+}
+
+#upText {
+    color: green;
+}
+
+#downText {
+    color: yellow;
+}
+
+#allSetRight {
+    float: right;
+}
+
+.right {
+    display: inline-block;
+}
+
+#boxTimer {
+    width: 400px;
+    height: 150px;
+    background-color: gold;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#timer {
+    font-family: Courier;
+    font-size: 120px;
+}
+
+#startButton {
+    width: 400px;
+    height: 150px;
+    margin-top: 10px;
+    border: 1px solid black;
+    background-color: rgb(255, 230, 0);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#startButton:hover {
+    border: 5px solid red;
+}
+
+#startText {
+    font-family: cursive;
+    font-size: 120px;
+}
+
+#startText:hover {
+    color: red;
+}
+
+#boxRight {
+    width: 400px;
+    height: 150px;
+    background-color: rgb(255, 245, 0);
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#allSetLeft {
+    float: left;
+    width: 550px;
+    height: 630px;
+    background-color: rgb(200, 200, 200);
+    border: 1px solid black;
+    padding: 10px;
+}
+
+#inforH1 {
+    font-size: 60px;
+    font-family: cursive;
+}
+
+.pInfo {
+    font-size: 30px;
+    font-family: cursive;
+}
+
+#helpDiv {
+    float: left;
+    width: 60px;
+    height: 30px;
+    margin-top: 5px;
+    background-color: gold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#helpDiv:hover {
+    border: 2px solid black;
+}
+
+#helpP {
+    font-family: cursive;
+}
+
+#rulse {
+    display: none;
+    font-family: cursive;
+    font-size: 24px;
+}
+
+#logo {
+    font-family: fantasy;
+    font-size: 60px;
+}
